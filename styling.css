@@ -1,0 +1,64 @@
+body{
+    background-color: lightblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    color: darkmagenta;
+    background-color: black;
+    font-size: 60px;
+    width: 50%;
+    font-weight: bold;
+    border: 15px solid white;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 300px;
+}
+
+h2{
+    color: darkmagenta;
+}
+
+.capitalize-words{
+    text-align: center;
+    color: darkmagenta;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+ol{
+    border: 10px dotted white;
+    width: 520px;
+    padding-left: 250px;
+    margin-left: 230px;
+}
+
+.heading-1-title{
+    color: white;
+}
+
+.image-position{
+    text-align: center;
+    
+}
+
+#nav-elements{
+    display: block;
+    padding: 10px;
+    margin: 0px 5px;
+    background-color: blue;
+    border: 5px solid black;
+}
+
+#navbar{
+    display: flex;
+    background-color: aquamarine;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#nav-elements:hover{
+    background-color: orange;
+}
