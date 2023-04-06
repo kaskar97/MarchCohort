@@ -1,7 +1,6 @@
 body{
-    margin: 0px auto;
-    width: 900px;
-    height: 900px;
+    margin: auto;
+    width: 75%;
     background-color: #96D4CA;
 }
 
@@ -11,11 +10,11 @@ body{
     justify-content: flex-end;
 }
 
-li{
+header nav ul li{
     margin: 0px 10px;
 }
 
-a{
+header nav ul li a{
     text-decoration: none;
     color: black;
 }
@@ -28,16 +27,16 @@ span{
     color: #ff1b6b;
 }
 
-main{
-    display: flex;
-    flex-wrap: wrap;
+main {
+    background-color: #45caff;
 }
 
 .container{
-    background-color: #45caff;
+    width: 75%;
     display: flex;
     flex-wrap: wrap;   
     justify-content: space-around;
+    margin: auto;
 }
 
 .container div{
@@ -48,19 +47,26 @@ main{
     
 }
 
-section {
+main section {
     background-color: #ff1b6b;
-    width: 100%;
-    
+    text-align: center;
+    color: white;
+    padding: 20px;
 }
 
-.top-element{
+
+
+main h3{
     text-align: center;
 }
 
 footer{
     background-color: #ff1b6b;
     padding: 35px;
+}
+
+footer h3{
+    text-align: left;
 }
 
 img{
